@@ -20,5 +20,6 @@ jobs:
         BRANCH: gh-pages
         FOLDER: public
         BUILD_SCRIPT: |
+          npm install
           npm run build
 
