@@ -22,4 +22,5 @@ jobs:
         BUILD_SCRIPT: |
           npm install
           npm run build
+          echo "theme: jekyll-theme-cayman" > public/_config.yml
 
